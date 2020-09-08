@@ -234,3 +234,29 @@
 		padding: 13px 70px;
 	}
 }
+
+
+.advantage__inner {
+	padding: 185px 0 120px 0;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.advantage__item {
+	width: 360px;
+	padding: 40px 30px;
+	transition: all .5s ease;
+	&-img {
+		margin-bottom: 40px;
+	}
+	&-title {
+		font-size: 24px;
+		margin-bottom: 35px;
+	}
+	&:hover {
+	border-radius: 4px;
+	box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+	}
+}
+
