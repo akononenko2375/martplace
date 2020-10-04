@@ -32,6 +32,11 @@ $(function () {
 	});
 
 
+	$('.category-box__aside-category').on('click', function () {
+		$('.category-list').slideToggle();
+		$('.category-box__aside-title.categories').toggleClass('active');
+	});
+
 
 
 
